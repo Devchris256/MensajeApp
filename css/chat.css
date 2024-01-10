@@ -1,0 +1,29 @@
+@import './header.css';
+@import './mensaje-list.css';
+@import './action-list.css';
+
+:root {
+  --blocksizeHeader: 5rem;
+  --blocksizeActions: 5rem;
+}
+
+.chat {
+  block-size: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat .header {
+  block-size: var(--blocksizeHeader);
+}
+
+.chat .mensajeList {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.chat .actionList {
+  block-size: var(--blocksizeActions);
+}
+
+

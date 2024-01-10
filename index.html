@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>MensajeApp</title>
+</head>
+<body class="body">
+  <div class="layout">
+    <div class="layout-sidebar">
+      <div class="sidebar">
+        <header class="header">
+          <div class="header-img">
+            <img src="./img/user-me.png" alt="Mi foto de perfil">
+          </div>
+        </header>
+        <div class="searchChat">
+          <form class="search">
+            <img src="./iconos/search.svg" alt="Lupa de busqueda" width="24" height="24">
+            <input type="search" class="search-input" placeholder="Buscar o iniciar un nuevo chat">
+          </form>
+        </div>
+        <div class="conversationList">
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/use-mylove.png" alt="Perfil de Usuario" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Myhusband</span>
+                <span class="conversation-date">Jueves</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check is-audio"></span>
+                <span class="conversation-text">2:10</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-ingrid.png" alt="Perfil de Usuario Ingrid" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Ingrid</span>
+                <span class="conversation-date">Jueves</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check"></span>
+                <span class="ellipse">
+                  <span class="conversation-text">Si no te preocupes yo le hago llegar el recado</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-josefa.png" alt="Perfil de Usuario Josefa" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Josefa</span>
+                <span class="conversation-date">Jueves</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check is-active"></span>
+                <span class="conversation-text">Ya le avise que llegarás tarde</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-jan.png" alt="Perfil de Usuario Jan" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Jan</span>
+                <span class="conversation-date">Miercoles</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check"></span>
+                <span class="conversation-text">No sabria decirte</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-ruben.png" alt="Perfil de Usuario Ruben" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Ruben</span>
+                <span class="conversation-date">Miercoles</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check"></span>
+                <span class="conversation-text">Luego te aviso</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-erika.png" alt="Perfil de Usuario Erika" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Erika</span>
+                <span class="conversation-date">Martes</span>
+              </div>
+              <div class="conversation-mensajeNuevo">
+                <span class="conversation-text">Can we talk?</span>
+                <span class="check is-new"></span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-rufino.png" alt="Perfil de Usuario Rufino" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Rufino</span>
+                <span class="conversation-date">Martes</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check is-active"></span>
+                <span class="conversation-text">Perfecto, eso es todo jaja</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-mariano.png" alt="Perfil de Usuario Mariano" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Mariano</span>
+                <span class="conversation-date">Martes</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check"></span>
+                <span class="conversation-text">Me dijo que viajará el lunes</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-pilar.png" alt="Perfil de Usuario Pliar" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Pliar</span>
+                <span class="conversation-date">Lunes</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check is-active"></span>
+                <span class="ellipse">
+                  <span class="conversation-text">Si, si. estoy ocupada, no me interrumpas please. Te hablo luego, besos.</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/use-mylove.png" alt="Perfil de Usuario" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Myhusband</span>
+                <span class="conversation-date">Jueves</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check is-audio"></span>
+                <span class="conversation-text">2:10</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-ingrid.png" alt="Perfil de Usuario Ingrid" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Ingrid</span>
+                <span class="conversation-date">Jueves</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check"></span>
+                <span class="ellipse">
+                  <span class="conversation-text">Si no te preocupes yo le hago llegar el recado</span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-josefa.png" alt="Perfil de Usuario Josefa" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Josefa</span>
+                <span class="conversation-date">Jueves</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check is-active"></span>
+                <span class="conversation-text">Ya le avise que llegarás tarde</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-jan.png" alt="Perfil de Usuario Jan" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Jan</span>
+                <span class="conversation-date">Miercoles</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check"></span>
+                <span class="conversation-text">No sabria decirte</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-ruben.png" alt="Perfil de Usuario Ruben" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Ruben</span>
+                <span class="conversation-date">Miercoles</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check"></span>
+                <span class="conversation-text">Luego te aviso</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-erika.png" alt="Perfil de Usuario Erika" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Erika</span>
+                <span class="conversation-date">Martes</span>
+              </div>
+              <div class="conversation-mensajeNuevo">
+                <span class="conversation-text">Can we talk?</span>
+                <span class="check is-new"></span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-rufino.png" alt="Perfil de Usuario Rufino" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Rufino</span>
+                <span class="conversation-date">Martes</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check is-active"></span>
+                <span class="conversation-text">Perfecto, eso es todo jaja</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-mariano.png" alt="Perfil de Usuario Mariano" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Mariano</span>
+                <span class="conversation-date">Martes</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check"></span>
+                <span class="conversation-text">Me dijo que viajará el lunes</span>
+              </div>
+            </div>
+          </div>
+          <div class="conversation" tabindex="0">
+            <div class="conversation-img">
+              <img src="./img/user-pilar.png" alt="Perfil de Usuario Pliar" height="48" width="48">
+            </div>
+            <div class="conversation-content">
+              <div class="conversation-details">
+                <span class="conversation-name">Pliar</span>
+                <span class="conversation-date">Lunes</span>
+              </div>
+              <div class="conversation-mensaje">
+                <span class="check is-active"></span>
+                <span class="ellipse">
+                  <span class="conversation-text">Si, si. estoy ocupada, no me interrumpas please. Te hablo luego, besos.</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="layout-chat">
+      <div class="chat">
+        <header class="header" aria-label="secondary">
+          <div class="header-primary">
+            <div class="header-img">
+              <img src="./img/use-mylove.png" alt="Perfil de Usuario Myhusband" height="48" width="48">
+            </div>
+            <p class="header-details">
+              <span class="header-name">Myhusband</span>
+              <span class="header-status">EN LINEA</span>
+            </p>
+          </div>
+          <div class="hader-secondary">
+            <button class="buttonIcon" aria-label="Buscar por palabra clave en la conversación">
+              <img src="./iconos/search.svg" alt="Icono de Lupa" height="24" width="24">
+            </button>
+          </div>
+        </header>
+        <main class="mensajeList">
+          <div class="audio">
+            <div class="audio-button">
+              <button class="buttonIcon" aria-label="Reproducir audio">
+                <img src="./iconos/play.svg" alt="Icono de Play">
+              </button>
+            </div>
+            <div class="audio-body">
+              <div class="audio-slider">
+                <div class="slider is-large">
+                  <div class="slider-progress">
+                    <div class="slider-button"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="audio-details">
+                <span class="audio-duration">2:10</span>
+                <span class="audio-date">10:00 am</span>
+              </div>
+            </div>
+            <div class="audio-perfil">
+              <div class="audio-avatar">
+                <img src="./img/use-mylove.png" alt="Foto de perfil del contacto Myhusband" height="64" width="64">
+                <div class="audio-icono">
+                  <div class="buttonIcon">
+                    <img src="./iconos/mic.svg" alt="Icono de microfono">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="newMessage">
+            <p class="newMessage-aviso">1 MENSAJE NO LEIDO</p>
+          </div>
+          <div class="mensaje is-resiver">
+            <div class="mensaje-text">
+              Perfecto, algo adicional que debería saber?
+            </div>
+            <div class="mensaje-details">
+              <span class="mensaje-date">09:17 am</span>
+              <span class="check is-active"></span>
+            </div>
+          </div>
+          <div class="mensaje is-sender">
+            <div class="mensaje-text">
+              Buenos días disculpe yá está tu cuenta abierta pero para mañana de 9 A 12 podrás recibir al técnico
+            </div>
+            <div class="mensaje-details">
+              <span class="mensaje-date">09:15 am</span>
+            </div>
+          </div>
+          <div class="mensaje is-resiver">
+            <div class="mensaje-text">
+              si, claro: <a href="https://twitter.com/pascual_atoche" target="_blank" class="link">https://twitter.com/pascual_atoche</a>
+            </div>
+            <div class="mensaje-details">
+              <span class="mensaje-date">09:11 am</span>
+              <span class="check is-active"></span>
+            </div>
+          </div>
+          <div class="mensaje is-sender">
+            <div class="mensaje-text">
+              Me puedes pasar el link de tu perfil de Twitter
+            </div>
+            <div class="mensaje-details">
+              <span class="mensaje-date">09:10 am</span>
+            </div>
+          </div>
+          <div class="date">Jueves</div>
+        </main>
+        <footer class="actionList">
+          <div class="action-emotion">
+            <button class="buttonIcon" aria-label="Presionar para escoger emoticon">
+              <img src="./iconos/smile.svg" alt="Carita feliz" height="24" width="24">
+            </button>
+          </div>
+          <div class="action-file">
+            <button class="buttonIcon" aria-label="Click para escoger el tipo de archivo">
+              <img src="./iconos/paperclip.svg" alt="Icono de Clip">
+            </button>
+          </div>
+          <div class="action-text">
+            <input type="text" aria-label="Text">
+          </div>
+          <div class="action-send">
+            <button class="buttonIcon" aria-label="Preciona para mandar mensaje">
+              <img src="./iconos/send.svg" alt="Icono de paloma de papel">
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

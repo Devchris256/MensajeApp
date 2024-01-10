@@ -1,0 +1,38 @@
+@import './chat.css';
+@import './aside.css';
+
+.layout {
+  display: flex;
+  max-inline-size: 100rem;
+  margin: auto;
+}
+
+.layout-sidebar {
+  inline-size: 30%;
+  background: var(--white);
+}
+
+.layout-chat {
+  flex: 1;
+}
+
+@media screen and (max-width:1200px) and (min-width:501px) {
+  .layout-sidebar {
+    inline-size: 45%;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+
+  .layout-sidebar {
+    inline-size: 100%;
+    flex-shrink: 0;
+  }
+
+  .layout-chat {
+    flex: auto;
+    inline-size: 100%;
+  }
+}
+

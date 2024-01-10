@@ -1,0 +1,23 @@
+.actionList {
+  background: var(--grey-4);
+  padding-inline: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.action-text {
+  flex: 1;
+}
+
+.action-text input {
+  inline-size: 100%;
+  padding-block: 1rem;
+  padding-inline: 1.25rem;
+  border-radius: 3.125rem;
+  box-sizing: border-box;
+  border: none;
+  color: var(--black);
+}
+
+

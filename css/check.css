@@ -1,0 +1,30 @@
+.check::before {
+  content: '';
+  display: block;
+  inline-size: 1rem;
+  block-size: .625rem;
+  background: url(../iconos/Whatsaap-check.svg) no-repeat center/cover;
+}
+
+.check.is-active::before {
+  background: url(../iconos/whatsapp-check-blue.svg) no-repeat center/cover;
+}
+
+.check.is-audio::before {
+  inline-size: 1rem;
+  block-size: 1rem;
+  background: url(../iconos/mic.svg) no-repeat center/cover;
+}
+
+.check.is-new::before {
+  content: '1';
+  display: block;
+  inline-size: 1rem;
+  block-size: 1rem;
+  border-radius: 50%;
+  color: var(--white);
+  text-align: center;
+  font: var(--caption-12bold);
+  background: green;
+}
+

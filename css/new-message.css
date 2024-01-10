@@ -1,0 +1,19 @@
+.newMessage {
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, .3);
+  border-block-end: 1px solid rgb(227, 227, 227);
+  padding-block: .5rem;
+  position: relative;
+  left: 0;
+}
+
+.newMessage-aviso {
+  margin: 0;
+  color: var(--black);
+  font: var(--body-16regular);
+  padding-block: .5rem;
+  padding-inline: 1rem;
+  background: var(--white);
+  border-radius: 1rem;
+}

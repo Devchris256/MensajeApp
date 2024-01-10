@@ -1,0 +1,27 @@
+@import './conversation.css';
+@import './ellipse.css';
+
+:root {
+  --blocksizeHeader: 5rem;
+  --blocksizeSearch: 5rem;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  block-size: 100vh;
+}
+
+.sidebar .header {
+  block-size: var(--blocksizeHeader);
+}
+
+.sidebar .searchChat {
+  block-size: var(--blocksizeSearch);
+}
+
+.sidebar .conversationList {
+  flex: 1;
+  overflow-y: auto;
+}
+

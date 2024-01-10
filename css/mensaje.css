@@ -1,0 +1,65 @@
+.mensaje {
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+  position: relative;
+  max-inline-size: 33.5rem;
+  box-sizing: border-box;
+}
+
+.mensaje-text {
+  color: var(--black);
+}
+
+.mensaje-details {
+  display: flex;
+  gap: .25rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mensaje-date {
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+.mensaje.is-sender {
+  background: var(--white);
+  align-self: flex-start;
+  border-radius: 0 .5rem .5rem .5rem;
+}
+
+.mensaje.is-resiver {
+  background: var(--green-1);
+  align-self: flex-end;
+  border-radius: .5rem 0 .5rem .5rem;
+}
+
+.mensaje.is-sender::before {
+  content: ' ';
+  display: block;
+  inline-size: .75rem;
+  aspect-ratio: 1/1;
+  background: inherit;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: 100%;
+}
+
+.mensaje.is-resiver::before {
+  content: ' ';
+  display: block;
+  inline-size: .75rem;
+  aspect-ratio: 1/1;
+  background: inherit;
+  clip-path: polygon(0 0, 100% 0, 0 100%, 0 0);
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-start: 100%;
+}
+
+.mensaje .link {
+  color: #316AFB;
+}

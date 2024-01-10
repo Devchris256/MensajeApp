@@ -1,0 +1,13 @@
+@import './mensaje.css';
+@import './date.css';
+@import './audio.css';
+@import './new-message.css';
+
+.mensajeList {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+  background: url(../img/bg-wspp.png) var(--grey-4);
+  padding-block: 1rem;
+  padding-inline: 1.75rem;
+}

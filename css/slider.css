@@ -1,0 +1,23 @@
+.slider {
+  block-size: .25rem;
+  background: var(--grey-2);
+}
+
+
+.slider-progress {
+  block-size: inherit;
+  inline-size: 40%;
+  background: var(--blue);
+  position: relative;
+}
+
+.slider-button {
+  block-size: 400%;
+  aspect-ratio: 1/1;
+  background: inherit;
+  border-radius: 50%;
+  position: absolute;
+  inset-inline-end: 0;
+  inset-block-start: 50%;
+  transform: translateX(50%) translateY(-50%);
+}

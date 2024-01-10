@@ -1,0 +1,10 @@
+.body {
+  margin: 0;
+  font: var(--body-16regular);
+}
+
+@media screen and (min-width:1441px) {
+  .body {
+    background: #00a884;
+  }
+}

@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 1rem;
+  background: var(--grey-4);
+  border-block-end: 1px solid rgba(224, 223, 223, 0.693);
+  box-shadow: inset 1px 0 0 var(--grey);
+}
+
+.header-img {
+  inline-size: 3rem;
+  block-size: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.header-img img {
+  inline-size: 100%;
+  aspect-ratio: 1/1;
+  vertical-align: bottom;
+}
+
+.header-primary {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.header-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin: 0;
+}
+
+.header-name {
+  color: var(--black);
+}
+
+.header-status {
+  font: var(--caption-12regular);
+  color: var(--grey);
+}

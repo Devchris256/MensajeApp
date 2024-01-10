@@ -1,0 +1,11 @@
+.buttonIcon {
+  background: transparent;
+  padding: 0;
+  border: none;
+}
+
+.buttonIcon img {
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  vertical-align: bottom;
+}

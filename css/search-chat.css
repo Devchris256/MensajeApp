@@ -1,0 +1,36 @@
+.searchChat {
+  background: var(--grey-3);
+  padding-inline: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.search {
+  position: relative;
+  inline-size: 100%;
+}
+
+.search-input {
+  inline-size: 100%;
+  padding-block: .875rem;
+  padding-inline-end: 1.5rem;
+  padding-inline-start: 5rem;
+  border-radius: 3.125rem;
+  border: none;
+  box-sizing: border-box;
+}
+
+.search-input::placeholder {
+  font: var(--body-16regular);
+  color: var(--grey);
+}
+
+.search img {
+  /* border: 1px solid red; */
+  inline-size: 1.5rem;
+  block-size: 1.5rem;
+  position: absolute;
+  inset-inline-start: 1.5rem;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+}

@@ -1,0 +1,73 @@
+@import './slider.css';
+
+.audio {
+  align-self: flex-start;
+  background: var(--white);
+  padding: .5rem;
+  border-radius: 0 .5rem .5rem .5rem;
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  max-inline-size: 33.5rem;
+  inline-size: 100%;
+  box-sizing: border-box;
+}
+
+.audio-button {
+  padding-block-start: .5rem;
+}
+
+.audio-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.audio-slider {
+  padding-block-start: 1rem;
+}
+
+.audio-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.audio-details .audio-duration,
+.audio-details .audio-date {
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+
+.audio-avatar {
+  inline-size: 4rem;
+  block-size: 4rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.audio-avatar img {
+  border-radius: 50%;
+  inline-size: 100%;
+  aspect-ratio: 1/1;
+  vertical-align: bottom;
+}
+
+.audio-icono {
+  position: absolute;
+  inset-block-end: 0;
+  inset-inline-end: 0;
+}
+
+.audio::before {
+  content: ' ';
+  display: block;
+  inline-size: .75rem;
+  aspect-ratio: 1/1;
+  background: inherit;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+  position: absolute;
+  inset-block-start: 0;
+  inset-inline-end: 100%;
+}

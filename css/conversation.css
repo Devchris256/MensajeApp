@@ -1,0 +1,78 @@
+.conversation {
+  display: flex;
+  gap: .5rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.conversation-img {
+  inline-size: 3rem;
+  block-size: 3rem;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.conversation-img img {
+  inline-size: 100%;
+  block-size: 100%;
+  vertical-align: middle;
+}
+
+.conversation-content {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  flex: 1;
+  position: relative;
+}
+
+.conversation-content::before {
+  content: ' ';
+  display: block;
+  inline-size: 100%;
+  block-size: 1px;
+  background: var(--grey-2);
+  position: absolute;
+  inset-block-start: calc(100% + 1rem);
+}
+
+.conversation-details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.conversation-mensaje{
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+
+.conversation-mensajeNuevo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .25rem;
+}
+
+.conversation-name {
+  color: var(--black);
+}
+
+.conversation-date {
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+.conversation-text {
+  font: var(--caption-12regular);
+  color: var(--grey);
+}
+
+.conversation:hover,
+.conversation:focus {
+  background: var(--grey-2);
+  outline: none;
+}
