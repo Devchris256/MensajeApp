@@ -2,6 +2,7 @@
 @import './button-icon.css';
 @import './search-chat.css';
 @import './check.css';
+
 @import './layout.css';
 
 
@@ -28,4 +29,3 @@
   --caption-12regular: 400 0.75rem/1rem var(--fontBase);
   --caption-12regular_u: 400 0.75rem/1.25rem var(--fontBase);
 }
-

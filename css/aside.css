@@ -7,9 +7,10 @@
 }
 
 .sidebar {
+  block-size: 100vh;
   display: flex;
   flex-direction: column;
-  block-size: 100vh;
+  background: var(--white);
 }
 
 .sidebar .header {
